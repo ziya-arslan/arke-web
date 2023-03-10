@@ -3,7 +3,7 @@ import React from "react";
 
 const ContactUs: React.FC = () => {
   return (
-    <div className="bg-black text-white flex flex-col justify-center items-center pt-10 min-h-screen">
+    <div className="bg-black text-white flex justify-center items-center pt-10 min-h-screen">
       <div className="flex-1 flex flex-col justify-center items-center pt-10 lg:pt-6">
         <div className="pb-10 invert">
           <Image
@@ -13,7 +13,13 @@ const ContactUs: React.FC = () => {
             alt="Arke Logo"
           />
         </div>
-        <h2 className="text-4xl font-bold">Contact Us</h2>
+        <div className="text-center">
+          <p>ИП “Кудуретов Э.Ш.”</p>
+          <p>Кыргызская Республика,</p>
+          <p>г. Бишкек, ул.Ахунбаева 144-1</p>
+          <p>тел. +996-707-98-79-51</p>
+        </div>
+        <h2 className="text-4xl font-bold mt-6">Свяжитесь С Нами</h2>
         <form className="flex flex-col gap-4 mt-16 px-10 lg:mt-20 min-w-full lg:min-w-[500px]">
           <input
             id="companyName"
